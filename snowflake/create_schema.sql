@@ -1,7 +1,7 @@
 begin;
 
   -- create variables database (needs to be uppercase for objects)
-  set database_name = 'FIVETRAN_ACASTILLO';
+  set database_name = 'FIVETRAN_'; -- Add your user in Snowflake to identify each database.
 
   use role SYSADMIN;
 
