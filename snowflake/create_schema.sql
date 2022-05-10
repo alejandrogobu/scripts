@@ -5,7 +5,7 @@ begin;
 
   use role SYSADMIN;
 
-  create or replace database identifier($database_name);
+  create database identifier($database_name);
 
   use database identifier($database_name);
 
